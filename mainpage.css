@@ -1,0 +1,246 @@
+body {
+    background-color: black;
+    max-width: 100vw;
+    overflow-x: hidden;
+    
+}
+.navdesign{
+    text-align: end;
+    margin-right: 100px;
+    margin-top: 35;
+    
+}
+
+.Home {
+    color: violet;
+    font-size: 20px; 
+    text-decoration: none ;
+    padding: .8%;
+    transition: 0.3s ease ;
+    
+}
+
+.Home:hover {
+    background-color: palevioletred;
+    border-radius: 20px; 
+}
+
+.Recentwork {
+    color: violet;
+    font-size: 20px;
+    text-decoration: none; 
+    padding: .8%;
+    transition: 0.3s ease ;
+}
+.Recentwork:hover{
+    background-color: palevioletred;
+    border-radius: 20px;
+}
+.GetInTouch  {
+    color: violet;
+    font-size: 20px; 
+    text-decoration: none ;
+    padding: .8%;
+    transition: 0.3s ease ;
+    
+}
+.GetInTouch:hover{
+    background-color: palevioletred;
+    border-radius: 20px;
+}
+.maintext{
+    margin-left: 300px;
+    height: 60vh;
+    margin-top: 200px;
+}
+.greet {
+    position: relative;
+    bottom: 100px;
+    color: white;
+    font-size: 40px;
+}
+.name{
+    position: relative;
+    bottom: 100px;
+    color: white;
+    font-size: 50px;
+}
+.frontenddev{
+    position: relative;
+    bottom: 100px;
+    color: gray;
+    font-size: 20px;
+}
+.aboutme{
+    position: relative;
+    bottom: 95px;
+    color: white;
+    font-size: 13px;
+    
+
+}
+.imgcontainer{
+    position: relative ; 
+    bottom: 380px;
+    left: 450px;
+    width: 250px; 
+    height : 300px; 
+    overflow: hidden;
+    
+}
+.imgcontainer img{
+    width: 100% ; 
+    height: 100%;
+    object-fit: cover;
+  
+   transition : opacity 0.5s ease, transform 0.5s ease  ; 
+
+}
+.img1{
+    opacity: 1; 
+    transform: scale(1);
+    border-radius: 30px;
+}
+
+.img2{
+    opacity: 0;
+    transform: scale(1.1);
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    border-radius: 30px;
+}
+.img2:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.img1:hover{
+    opacity: 0; 
+    transform: scale(0.95);
+}
+.iconcontainer{
+    position: relative; 
+    bottom: 370px;
+    left: 490px;
+}
+.igicon{
+   /* padding-right: 1.3%;
+    padding-left: 1.3%;
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;*/
+    padding: 1%;
+    transition: 0.3s ease ;
+}
+.igicon:hover{
+    opacity: 0.5;
+    background-color: gray;
+    border-radius: 25px;
+}
+.fbicon{
+    padding: 1%;
+    transition: 0.3s ease ;
+}
+.fbicon:hover{
+    opacity: 0.5;
+    background-color: gray;
+    border-radius: 25px;
+}
+.mailicon{
+    padding: 1%;
+    transition: 0.3s ease ;
+}
+.mailicon:hover{
+    opacity: 0.5;
+    background-color: gray;
+    border-radius: 25px;
+}
+.skill_icon{
+    position: relative;
+    bottom: 300px;
+   
+}
+
+.skill_icon{
+    position: relative;
+    bottom: 50px;
+    left: 0;
+}
+.html_icon{
+    padding: 1%;
+    transition: 0.5s ease ;
+}
+.i{
+    width: 80px !important;
+}
+.f{
+    width: 50px;
+}
+.i:hover{
+    opacity: 0.5;
+    
+    
+    transform: scale(1.5);
+    
+}
+.css_icon{
+    padding: 1%;
+    transition: 0.3s ease ;
+}
+
+
+.js_icon{
+    padding: 1%;
+    transition: 0.3s ease ;
+}
+
+
+.bootstrap_icon{
+    padding: 1%;
+    transition: 0.3s ease ;
+}
+#recent_project {
+    border-top: 2px solid #fff ;
+    height: 100vh ; 
+    
+}
+.x{
+    text-decoration: none;
+}
+.carousel-caption > h3{
+    font-size: 35px !important;
+    color: black;
+}
+.Rp{
+    text-align: center;
+}
+#GetInTouch{
+    border-top: 2px solid white;
+    height: 100vh;
+}
+.picontacts{
+    border: 1px solid black ;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    left: 500px;
+}
+.ctext{
+    color: #fff;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    text-decoration: none;
+}
+.coninfo{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    transition: 0.3s ease;
+}
+.coninfo:hover{
+    color: gray;
+    opacity: 0.5;
+    transform: scale(2);
+}
