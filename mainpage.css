@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #222;
     max-width: 100vw;
     overflow-x: hidden;
     
@@ -213,34 +213,81 @@ body {
 .Rp{
     text-align: center;
 }
-#GetInTouch{
-    border-top: 2px solid white;
-    height: 100vh;
+#Resume{
+    /*border-top: 2px solid white ;*/
+    padding: 70px;
 }
-.picontacts{
-    border: 1px solid black ;
-    border-radius: 10px;
-    position: relative;
-    margin-top: 50px;
-    left: 500px;
+
+.resumecontainer{ 
+    background-color: #222;
+    max-height: 100vh;
+    height: 60vh;
+    width: 180vh;
+    margin-bottom: 20vh;
+    border: 1px solid white ;
+    box-shadow: 0 0 5px white ;
+    overflow: hidden;
 }
-.ctext{
+.Resumepic{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.myinfo{
     color: #fff;
     position: relative;
-    top: 200px;
-    left: 200px;
-    text-decoration: none;
+    left: 270px;
+    bottom:     295px;
 }
-.coninfo{
-    color: white;
+.myemail{
+    color: #fff;
     text-decoration: none;
+    transition: 0.3s ease ;
+}
+.myemail:hover{
+    transform: scale(1.2);
+    background-color: #fff ;
+    
+}
+.myaboutme{
     position: relative;
-    top: 30px;
-    left: 200px;
-    transition: 0.3s ease;
+    bottom: 300px;
+    left: 270px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
 }
-.coninfo:hover{
-    color: gray;
-    opacity: 0.5;
-    transform: scale(2);
+.mystatement{
+    color: #fff;
+    position: relative;
+    left: 270px;
+    bottom: 300px;
+}
+.myeducation{
+    position: relative;
+    bottom: 550px;
+    left: 850px;
+    color: #fff;
+    font-size: 20px;
+}
+.educinfo{
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+.skillinfo{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    bottom: 650px; 
+    left: 270px;
+    text-decoration: none;
+}
+.skillinfo2{
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    bottom: 650px; 
+    left: 270px;
+    text-decoration: none;
 }
